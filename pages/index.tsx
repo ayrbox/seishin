@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Sticky from "react-stickynode";
+import Banner from "../components/Banner";
 import NavBar from "../components/NavBar";
 
 const IndexPage = () => {
@@ -22,8 +23,12 @@ const IndexPage = () => {
           <NavBar />
         </Sticky>
 
-        <div className="container border border-3 border-red-700 h-screen">
-          <h1>Item here</h1>
+        <div className="flex flex-col w-screen overflow-hidden -z-10 -mt-20">
+          <Banner />
+
+          <div className="h-screen">
+            <h1>Item here</h1>
+          </div>
         </div>
       </div>
     </>

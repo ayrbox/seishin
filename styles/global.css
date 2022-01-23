@@ -3,5 +3,22 @@
 @tailwind utilities;
 
 .sticky-active nav {
-  @apply py-4 bg-white shadow-md;
+  @apply py-4 bg-white shadow-lg;
+}
+
+.sticky-active nav h1 {
+  @apply text-slate-800 hover:text-slate-500;
+}
+
+.sticky-active nav ul > li > a {
+  @apply text-slate-800 hover:text-slate-500;
+}
+
+.banner-gradient-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.7) 0%,
+    rgba(9, 9, 121, 0.7) 35%,
+    rgba(0, 212, 255, 0.7) 100%
+  );
 }
