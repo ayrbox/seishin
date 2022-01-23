@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sticky-active nav {
+  @apply py-4 bg-white shadow-md;
+}
