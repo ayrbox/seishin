@@ -3,6 +3,7 @@ import Sticky from "react-stickynode";
 import Banner from "../components/Banner";
 import NavBar from "../components/NavBar";
 import Map from "../components/Map";
+import Values from "../components/Values";
 
 const IndexPage = () => {
   return (
@@ -27,6 +28,7 @@ const IndexPage = () => {
         <div className="flex flex-col w-screen overflow-hidden -z-10 -mt-20">
           <Banner />
           <Map />
+          <Values />
 
           <div className="h-screen">
             <h1>Item here</h1>
