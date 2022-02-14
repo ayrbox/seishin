@@ -5,6 +5,7 @@ import NavBar from "../components/NavBar";
 import Map from "../components/Map";
 import Values from "../components/Values";
 import ComplianceSection from "../components/Compliance";
+import Message from "../components/Message";
 
 const IndexPage = () => {
   return (
@@ -31,6 +32,7 @@ const IndexPage = () => {
           <Map />
           <Values />
           <ComplianceSection />
+          <Message />
 
           <div className="h-screen">
             <h1>Item here</h1>
