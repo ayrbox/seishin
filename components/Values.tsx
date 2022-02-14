@@ -1,7 +1,3 @@
-import Image from "next/image";
-import JLPTLogo from "../public/jlpt-logo.png";
-import IELTSLogo from "../public/ielts-logo.jpg";
-
 const Values = () => {
   return (
     <div className="py-16 bg-teal-500 text-white text-center">
@@ -16,14 +12,13 @@ const Values = () => {
         </p>
         <div className="flex justify-center items-center p-8 ">
           <div className="w-28 m-3">
-            <Image src={JLPTLogo} objectFit="cover" alt="JLPT Logo" />
+            <img src="/jlpt-logo.png" alt="JLPT Logo" />
           </div>
           <div className="w-28 m-3">
-            <Image
-              src={IELTSLogo}
-              alt="IELTS Logo"
-              objectFit="cover"
+            <img
               className="rounded-md"
+              src="/ielts-logo.jpg"
+              alt="IELTS Logo"
             />
           </div>
         </div>
