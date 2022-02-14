@@ -1,7 +1,9 @@
+import FujiPagodaImage from "../images/fuji-pagoda.jpg";
+
 const Banner = () => (
   <section
     className="w-full overflow-hidden bg-red-300 bg-cover bg-center bg-no-repeat"
-    style={{ backgroundImage: "url('/fuji-pagoda.jpg')", height: "60vh" }}
+    style={{ backgroundImage: `url(${FujiPagodaImage.src})`, height: "60vh" }}
   >
     <div className="inset-0 bg-opacity-30 h-full w-full text-white banner-gradient-overlay">
       <div className="container mx-auto h-full flex items-center">

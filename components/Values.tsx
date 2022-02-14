@@ -1,3 +1,6 @@
+import JLPTLogo from "../images/jlpt-logo.png";
+import IELTSLogo from "../images/ielts-logo.jpg";
+
 const Values = () => {
   return (
     <div className="py-16 bg-teal-500 text-white text-center">
@@ -12,14 +15,10 @@ const Values = () => {
         </p>
         <div className="flex justify-center items-center p-8 ">
           <div className="w-28 m-3">
-            <img src="/jlpt-logo.png" alt="JLPT Logo" />
+            <img src={JLPTLogo.src} alt="JLPT Logo" />
           </div>
           <div className="w-28 m-3">
-            <img
-              className="rounded-md"
-              src="/ielts-logo.jpg"
-              alt="IELTS Logo"
-            />
+            <img className="rounded-md" src={IELTSLogo.src} alt="IELTS Logo" />
           </div>
         </div>
       </div>
