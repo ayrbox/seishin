@@ -1,4 +1,4 @@
-const ComplianceSection = () => {
+const Message = () => {
   return (
     <div className="pb-20">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
@@ -13,4 +13,4 @@ const ComplianceSection = () => {
   );
 };
 
-export default ComplianceSection;
+export default Message;
