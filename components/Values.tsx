@@ -4,7 +4,7 @@ import IELTSLogo from "../public/ielts-logo.jpg";
 
 const Values = () => {
   return (
-    <div className="py-16 bg-teal-700 text-white text-center">
+    <div className="py-16 bg-teal-500 text-white text-center">
       <div className="container mx-auto">
         <h1 className="text-3xl pb-8 font-bold">Core Values</h1>
         <p className="text-2xl">
