@@ -7,7 +7,7 @@ const Banner = () => (
   >
     <div className="inset-0 bg-opacity-30 h-full w-full text-white banner-gradient-overlay">
       <div className="container mx-auto h-full flex items-center">
-        <div className="w-1/2">
+        <div className="px-6 md:w-1/2">
           <h1 className="text-4xl tracking-tight text-white mb-4">
             Pioneer in the field of <strong>Global Education</strong>
           </h1>
@@ -18,15 +18,15 @@ const Banner = () => (
           </p>
           <a
             href="tel:+9779841566136"
-            className="bg-teal-400 py-2 px-4 rounded font-bold shadow-md mr-3"
+            className="inline-block bg-teal-400 py-4 px-8 rounded font-bold shadow-md mr-5"
           >
-            Call Us at +977 9841566136
+            Call Us
           </a>
           <a
             href="mailto:info@seishin.edu.np"
-            className="bg-teal-400 py-2 px-4 rounded font-bold shadow-md"
+            className="inline-block bg-teal-400 py-4 px-8 rounded font-bold shadow-md"
           >
-            Email at info@seishin.edu.np
+            Email
           </a>
         </div>
       </div>

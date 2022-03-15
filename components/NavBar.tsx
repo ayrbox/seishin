@@ -27,7 +27,9 @@ const NavBar = () => {
   return (
     <nav className="w-screen p-6 bg-transparent transition-all">
       <div className="container mx-auto flex justify-between align-middle">
-        <h1 className="text-2xl font-bold text-slate-300">Seishin Education</h1>
+        <h1 className="text-3xl md:text-2xl font-bold text-slate-300">
+          Seishin Education
+        </h1>
         <ul className="hidden md:flex justify-between">
           {links.map((item) => (
             <NavBarItem key={item.id} linkTo={item.linkTo} label={item.label} />
